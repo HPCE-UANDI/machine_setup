@@ -8,5 +8,5 @@ cat ${SETUP_DIR}/append.vimrc >> ~/.vimrc
 
 echo "Setting up packages"
 sudo apt-get update
-sudo apt-get install --yes --force-yes g++ make libtbb-dev
+sudo apt-get install --yes --force-yes g++ make libtbb-dev bc
 
