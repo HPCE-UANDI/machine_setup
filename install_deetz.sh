@@ -1,7 +1,6 @@
 #!/bin/bash
 SETUP_DIR=`echo $0 | sed -r "s/(.*)install_deetz.sh.*/\1/"`
 DIR=$(pwd)/${SETUP_DIR}
-echo $DIR
 
 echo "Setting up packages"
 sudo apt-get update
