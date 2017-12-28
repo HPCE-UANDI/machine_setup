@@ -2,7 +2,10 @@
 export PATH=$HOME/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:~/Library/Python/3.6/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/DEETZ/.oh-my-zsh
+# ----------------PERSONAL---------------
+# export ZSH=/Users/DEETZ/.oh-my-zsh
+# ------------------AWS------------------
+export ZSH=/home/ubuntu/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -56,7 +59,7 @@ plugins=(git)
 plugins=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/bin/aws_zsh_completer.sh
+#source /usr/local/bin/aws_zsh_completer.sh
 
 # User configuration
 
